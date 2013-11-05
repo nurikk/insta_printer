@@ -1,4 +1,6 @@
-insta_printer
+Instagram image printer
 =============
+https://rubygems.org/gems/instagram
 
-insta printer
+simple instagram api client
+fetch instagram feed for given hashtag, download image and send to printer queue
