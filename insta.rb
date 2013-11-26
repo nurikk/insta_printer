@@ -71,7 +71,7 @@ def concat_images(queue)
   cmd.concat(queue)
   cmd.push('-geometry')
   cmd.push('612x612+2+2')
-  cmd.push('out_file')
+  cmd.push(out_file)
   system(cmd.join(' '))
   out_file
 end
