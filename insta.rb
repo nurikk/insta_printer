@@ -1,4 +1,5 @@
 #!/usr/bin/env ruby
+require 'rubygems'
 require 'instagram'
 require './config.rb'
 
@@ -34,7 +35,7 @@ end
 
 def print_file(file_name)
   puts "Printing #{file_name}"
-  system('lp', file_name)
+  system('lp', $print_params, file_name)
 end
 
 def fetch_images
