@@ -84,7 +84,7 @@ loop do
   $check_time =  current_time
   print 'sleep '
   1.upto($update_interval) do |t|
-    sleep 1;
+    sleep 1
     print $update_interval - t;
   end
   puts "\n"
