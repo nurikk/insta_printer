@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 require 'rubygems'
-require 'instagram'
+require 'bundler/setup'
 require './config.rb'
 
 def usage
